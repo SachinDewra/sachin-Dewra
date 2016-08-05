@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1st</title>
+<style>
+	
+	*{
+		 box-sizing: border-box;
+
+	 }
+
+h1{
+
+	color: green;
+	text-align: center
+}
+
+.row{
+
+	width: 100%;
+
+}
+
+section {
+
+	color: gray;
+	border: 2px solid white;
+	float: left;
+	margin: 20px;
+}
+
+/* for desktop*/
+@media(min-width: 992px) {
+
+		.lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12 {
+			float: left;
+			border: 1px solid black;
+			margin-left: 15px;
+			position: relative;
+		} 
+
+		.lg-1 {
+		width: 8.33%;
+	}
+
+	.lg-2 {
+		width: 16.66%;
+	}
+
+
+	.lg-3 {
+		width: 25%;
+	}
+
+
+
+	.lg-4 {
+		width: 33.33%;
+	}
+
+
+
+
+	.lg-5 {
+		width: 41.69%;
+	}
+
+
+
+	.lg-6 {
+		width: 50.02%;
+	}
+
+
+	.lg-7 {
+		width: 58.35%;
+	}
+
+
+
+	.lg-8 {
+		width: 66.68%;
+	}
+
+
+
+	.lg-9 {
+		width: 75.01%;
+	}
+
+
+
+	.lg-10 {
+		width: 83.34%;
+	}
+
+
+
+
+	.lg-11 {
+		width: 91.67%;
+	}
+
+
+
+
+	.lg-12 {
+		width: 100%;
+	}
+
+}
+
+
+/* for tablet view*/
+@media(min-width: 768px) and @media(max-width: 991px) {
+
+	.tb-1, .tb-2, .tb-3, .tb-4, .tb-5, .tb-6, .tb-7, .tb-8, .tb-9, .tb-10, .tb-11, .tb-12 {
+			float: left;
+			border: 1px solid black;
+		} 
+
+		.tb-1 {
+		width: 8.33%;
+	}
+
+	.tb-2 {
+		width: 16.66%;
+	}
+
+
+	.tb-3 {
+		width: 25%;
+	}
+
+
+
+	.tb-4 {
+		width: 33.33%;
+	}
+
+
+
+
+	.tb-5 {
+		width: 41.69%;
+	}
+
+
+
+	.tb-6 {
+		width: 50.02%;
+	}
+
+
+	.tb-7 {
+		width: 58.35%;
+	}
+
+
+
+	.tb-8 {
+		width: 66.68%;
+	}
+
+
+
+	.tb-9 {
+		width: 75.01%;
+	}
+
+
+
+	.tb-10 {
+		width: 83.34%;
+	}
+
+
+
+
+	.tb-11 {
+		width: 91.67%;
+	}
+
+
+
+
+	.tb-12 {
+		width: 100%;
+	}
+
+}
+
+/* for mobile view */
+@media(min-width: 767px) or @media(max-width: 767px;) {
+
+	.sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12 {
+			float: left;
+			border: 1px solid black;
+
+		} 
+
+		.sm-1 {
+		width: 8.33%;
+	}
+
+	.sm-2 {
+		width: 16.66%;
+	}
+
+
+	.sm-3 {
+		width: 25%;
+	}
+
+
+
+	.sm-4 {
+		width: 33.33%;
+	}
+
+
+
+
+	.sm-5 {
+		width: 41.69%;
+	}
+
+
+
+	.sm-6 {
+		width: 50.02%;
+	}
+
+
+	.sm-7 {
+		width: 58.35%;
+	}
+
+
+
+	.sm-8 {
+		width: 66.68%;
+	}
+
+
+
+	.sm-9 {
+		width: 75.01%;
+	}
+
+
+
+	.sm-10 {
+		width: 83.34%;
+	}
+
+
+
+
+	.sm-11 {
+		width: 91.67%;
+	}
+
+
+
+
+	.sm-12 {
+		width: 100%;
+	}
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Our Menu</h1>
+
+<div class="row">
+
+	<div class="lg-4 tb-4 sm-4">	
+			<section>The Constitution (122nd) Amendment Bill comes up in RS, on the back of a broad political consensus and boosted by the ‘good wishes’ of the Congress, which holds the crucial cards on its passage. Here  s how GST differs from the current regimes, how it will work, and what will happen if Parliament clears the Bill.</section>
+	</div>
+
+	<div class="lg-4 tb-4 sm-4">
+			<section>The Constitution (122nd) Amendment Bill comes up in RS, on the back of a broad political consensus and boosted by the ‘good wishes’ of the Congress, which holds the crucial cards on its passage. Here&acute;s how GST differs from the current regimes, how it will work, and what will happen if Parliament clears the Bill.</section>
+	</div>
+
+	<div class="lg-4 tb-4 sm-4">
+			<section>The Constitution (122nd) Amendment Bill comes up in RS, on the back of a broad political consensus and boosted by the ‘good wishes’ of the Congress, which holds the crucial cards on its passage. Here’s how GST differs from the current regimes, how it will work, and what will happen if Parliament clears the Bill.</section>
+	</div>
+
+</div>
+
+</body>
+</html>
